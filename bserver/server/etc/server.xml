@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server>
+	<global name="server"/>
+	<log property-file="../etc/log.properties" level="ERROR"/>
+	
+	<listener-list>
+		<listener address="inet@0.0.0.0:5012/tcp" protocol="H16/1.0"  processor="echo"/>
+	</listener-list>
+
+	<processor-list>
+		<processor name="echo" schedule="multi-thread" file="../lib/echo.so">
+			<p i="thread-count" v="20"/>
+			<p i="init-response-size" v="8192"/>
+		</processor>
+	</processor-list>
+</server>

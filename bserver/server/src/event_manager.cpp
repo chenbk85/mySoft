@@ -1,0 +1,264 @@
+#include <sys/time.h>
+
+#include "beyondy/timedout_countdown.hpp"
+#include "event_manager.h"
+#include "log.h"
+
+EventManager::EventManager(size_t esize /* = 1024 */)
+	: epoll_fd_(-1), next_flow_(FLOW_NIL), epoll_size_(esize), epoll_events_(NULL)
+{
+	if (esize < 1) esize = 1;
+	if ((epoll_fd_ = epoll_create(esize)) < 0) {
+		char buf[512];
+		snprintf(buf, sizeof buf, "epoll_create(%ld) failed: %m", (long)esize);
+		throw std::runtime_error(buf);
+	}
+
+	epoll_events_ = new (std::nothrow) struct epoll_event[esize];
+	if (epoll_events_ == NULL) {
+		close(epoll_fd_);
+
+		char buf[512];
+		snprintf(buf, sizeof buf, "new epoll events[%ld] failed: %m", (long)esize);
+		throw std::runtime_error(buf);
+	}
+
+	INIT_LIST_HEAD(&phead_);
+	return;
+}
+
+EventManager::~EventManager()
+{
+	delete[] epoll_events_;
+	close(epoll_fd_);
+}
+
+int EventManager::add_poller(pollable* p, uint32_t events)
+{
+	struct epoll_event ee;
+	int retval;
+	
+	ee.events = events;
+	ee.data.ptr = p;
+	
+	if (!(retval = epoll_ctl(epoll_fd_, EPOLL_CTL_ADD, p->fd(), &ee))) {
+		_list_add_tail(p->list_ptr(), &phead_);
+	}
+
+	return retval;
+}
+
+int EventManager::mod_poller(pollable* p, uint32_t events)
+{
+	struct epoll_event ee;
+	int retval;
+
+	ee.events = events;
+	ee.data.ptr = p;
+
+	retval = epoll_ctl(epoll_fd_, EPOLL_CTL_MOD, p->fd(), &ee);
+	return retval;
+}
+
+int EventManager::del_poller(pollable* p)
+{
+	struct epoll_event ee;
+	int retval;
+
+	ee.events = 0;
+	ee.data.ptr = p;
+
+	if (!(retval = epoll_ctl(epoll_fd_, EPOLL_CTL_DEL, p->fd(), &ee))) {
+		_list_del(p->list_ptr());
+	}
+	
+	return retval;
+}
+
+int EventManager::add_timer()
+{
+	return 0;
+}
+
+int EventManager::mod_timer()
+{
+	return 0;
+}
+
+int EventManager::del_timer()
+{
+	return 0;
+}
+
+void* EventManager::thread_entry(void *p)
+{
+	EventManager* p = (EventManager *)p;
+	return p->worker();
+}
+
+void* EventManager::worker()
+{
+	while (!isExit()) {
+		int retval = lf_.wait_leadership(10);
+		if (retval < 0) {
+			if (errno == ETIMEDOUT || errno == EINTR) {
+				continue;
+			}
+
+			break; // and exit
+		}
+
+		if (!pending_events()) {
+			wait_events();
+		}
+
+		// TODO copy out an event
+		lf_.release_leadership();
+		handle_event(&event);
+	}
+
+	return NULL;
+}
+
+// ms:  0 check
+//     -1 for ever
+//     >0 wait in ms
+int EventManager::loop(long ms)
+{
+	beyondy::TimedoutCountdown tc(ms);
+	long left;
+
+	lf_.start();
+	do {
+		left = tc.Update();
+		sleep(left / 1000);
+	} while (left != 0);
+
+	++pending_exit_;
+	exit_signal_ = 999;
+
+	lf_.stop();
+	return 0;
+}
+
+
+	do {
+		struct timeval tnow;
+		struct list_head *pl, *pn;
+
+		gettimeofday(&tnow, NULL);
+		// TODO: check per second
+		list_for_each_safe(pl, pn, &phead_) {
+			pollable* p = pollable::from_list_ptr(pl);
+			if (p->idle(tnow) < 0) {
+				SYSLOG_ERROR("%s will be clsoed by time out", p->name());
+				close_pollable(p);
+			}
+		}
+
+		long elapsed;
+		long wtime = 1000;
+		long ttime = -1; // next_timer_gap();
+
+		left = tc.Update(&elapsed);
+		if (left >= 0) {
+			if (ttime >= 0) wtime = std::min(left, ttime);
+			else wtime = left;
+		}
+		else if (ttime > 0) {
+			wtime = ttime;
+		}
+		
+		if (ttime == 0) {
+			// handle_timeout();
+		}
+
+		if (wtime > 1000) {
+			wtime = 1000; // check per 1s
+		}
+		
+		int cnt = epoll_wait(epoll_fd_, epoll_events_, epoll_size_, wtime);
+		if (cnt > 0) {
+			handle_events(epoll_events_, cnt);
+		}
+		else if (cnt == 0) {
+			// TODO: idle?
+		}
+		else {
+			// TODO: error
+		}
+	} while (left != 0);
+
+	return 0;
+}
+
+flow_t EventManager::next_flow()
+{
+	flow_t flow = ++next_flow_;
+	if (flow == FLOW_NIL) {
+		flow = ++next_flow_;
+	}
+
+	return flow;
+}
+
+void EventManager::handle_events(struct epoll_event *events, int count)
+{
+	for (int i = 0; i < count; ++i) {
+		handle_event(&events[i]);
+	}
+}
+
+void EventManager::handle_event(struct epoll_event *event)
+{
+	pollable* p = static_cast<pollable *>(event->data.ptr);
+	assert(p != NULL);
+
+	if (event->events & EPOLLERR) {
+		if (p->on_error() < 0) {
+			SYSLOG_ERROR("%s is closed by catching ERROR event", p->name());
+			close_pollable(p);
+			return;
+		}
+		
+	}
+	
+	if (event->events & EPOLLIN) {
+		if (p->on_readable() < 0) {
+			SYSLOG_ERROR("%s is closed by reading error", p->name());
+			close_pollable(p);
+			return;
+		}
+		else if (1) {
+			_list_del(p->list_ptr());
+			_list_add_tail(p->list_ptr(), &phead_);
+		}
+	}
+	
+	if (event->events & EPOLLOUT) {
+		if (p->on_writable() < 0) {
+			SYSLOG_ERROR("%s is closed by writing error", p->name());
+			close_pollable(p);
+			return;
+		}
+		else if (0) { // writable does not update timeout?
+			_list_del(p->list_ptr());
+			_list_add_tail(p->list_ptr(), &phead_);
+		}
+	}
+
+	return;
+}
+
+void EventManager::close_pollable(pollable* p)
+{
+	if (del_poller(p) < 0) {
+		// remove failed, delete mandatory
+		_list_del(p->list_ptr());
+	}
+
+	shutdown(p->fd(), SHUT_RDWR);
+	close(p->fd());
+	
+	p->destory();
+}

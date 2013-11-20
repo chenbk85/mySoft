@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<field-root><field-list>
+	<field id="SecId"  type="string" enum="false" token="false" catavg="false" name="SecId"/>
+	<field id="RR222CA" type="double" enum="false" token="false" catavg="true" name="Beta 1 Yr (Qtr-End)"/>
+	<field id="HS05X" type="double" enum="false" token="false" catavg="true" name="P/E Ratio (TTM) (Long)"/>
+	<field id="HS05V" type="double" enum="false" token="false" catavg="true" name="P/B Ratio (TTM) (Long)"/>
+	<field id="HS05W" type="double" enum="false" token="false" catavg="true" name="P/C Ratio (TTM) (Long)"/>
+	<field id="HS05U" type="double" enum="false" token="false" catavg="true" name="P/S Ratio (TTM) (Long)"/>
+	<field id="RR101CA" type="double" enum="false" token="false" catavg="true" name="Arithmetic Mean 3 Yr (Mo-End)"/>
+	<field id="RR012CA" type="double" enum="false" token="false" catavg="true" name="Sharpe Ratio 5 Yr (Mo-End)"/>
+	<field id="HS06DCA" type="double" enum="false" token="false" catavg="true" name="Equity Region Latin America %(Long Rescaled)"/>
+	<field id="HS06N" type="double" enum="false" token="false" catavg="true" name="Equity Region Asia dev %(Long Rescaled)"/>
+	<field id="HS06M" type="double" enum="false" token="false" catavg="true" name="Equity Region Asia emrg %(Long Rescaled)"/>
+	<field id="AR112" type="double" enum="false" token="false" catavg="false" name="Annual Dividend {year}"/>
+	<field id="HS06L" type="double" enum="false" token="false" catavg="true" name="Equity Region Australasia %(Long Rescaled)"/>
+	<field id="AR111" type="double" enum="false" token="false" catavg="false" name="Dividend YTD"/>
+	<field id="HS06K" type="double" enum="false" token="false" catavg="true" name="Equity Region Japan %(Long Rescaled)"/>
+	<field id="AA0B6" type="double" enum="false" token="false" catavg="false" name="Total Debt to Total Equity (FY Qtr End)"/>
+	<field id="HS06H" type="double" enum="false" token="false" catavg="true" name="Equity Region Europe emrg %(Long Rescaled)"/>
+	<field id="AA0B7" type="double" enum="false" token="false" catavg="false" name="Total Debt to Total Equity FY 1"/>
+	<field id="HS06E" type="double" enum="false" token="false" catavg="true" name="Equity Region United Kingdom %(Long Rescaled)"/>
+	<field id="HS06D" type="double" enum="false" token="false" catavg="true" name="Equity Region Latin America %(Long Rescaled)"/>
+	<field id="RR100CA" type="double" enum="false" token="false" catavg="true" name="Arithmetic Mean 1 Yr (Mo-End)"/>
+	<field id="RR224CA" type="double" enum="false" token="false" catavg="true" name="Beta 5 Yr (Qtr-End)"/>
+	<field id="HS07A" type="double" enum="false" token="false" catavg="true" name="Equity Style Mid Core %(Long Rescaled)"/>
+	<field id="HS06Z" type="double" enum="false" token="false" catavg="true" name="Equity Sector Software %(Long Rescaled)"/>
+	<field id="LS05M" type="string" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS076" type="double" enum="false" token="false" catavg="true" name="Equity Style Large Value %(Long Rescaled)"/>
+	<field id="HS04BCA" type="double" enum="false" token="false" catavg="true" name="Equity Style Mid Cap %(Long Rescaled)"/>
+	<field id="HS06V" type="double" enum="false" token="false" catavg="true" name="Equity Style Small Cap %(Long Rescaled)"/>
+	<field id="HS077" type="double" enum="false" token="false" catavg="true" name="Equity Style Large Core %(Long Rescaled)"/>
+	<field id="HS078" type="double" enum="false" token="false" catavg="true" name="Equity Style Large Growth %(Long Rescaled)"/>
+	<field id="HS079" type="double" enum="false" token="false" catavg="true" name="Equity Style Mid Value %(Long Rescaled)"/>
+	<field id="HS080CA" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector Mtg Pass-thru %(Long Rescaled)"/>
+	<field id="RR104CA" type="double" enum="false" token="false" catavg="true" name="Arithmetic Mean 15 Yr (Mo-End)"/>
+	<field id="HS080" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector Mtg Pass-thru %(Long Rescaled)"/>
+	<field id="HS082" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector Mortgage ARM %(Long Rescaled)"/>
+	<field id="HS081" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector Mortgage CMO %(Long Rescaled)"/>
+	<field id="HS06HCA" type="double" enum="false" token="false" catavg="true" name="Equity Region Europe emrg %(Long Rescaled)"/>
+	<field id="RR00MCA" type="double" enum="false" token="false" catavg="true" name="Beta 5 Yr (Mo-End)"/>
+	<field id="HS07I" type="double" enum="false" token="false" catavg="true" name="Equity Sector Telecom %(Long Rescaled)"/>
+	<field id="AR002CA" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year}"/>
+	<field id="HS07C" type="double" enum="false" token="false" catavg="true" name="Equity Style Small Value %(Long Rescaled)"/>
+	<field id="HS07B" type="double" enum="false" token="false" catavg="true" name="Equity Style Mid Growth %(Long Rescaled)"/>
+	<field id="HS07E" type="double" enum="false" token="false" catavg="true" name="Equity Style Small Growth %(Long Rescaled)"/>
+	<field id="HS07D" type="double" enum="false" token="false" catavg="true" name="Equity Style Small Core %(Long Rescaled)"/>
+	<field id="HS07Z" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Super Sector US Govt Debt %(Long Rescaled)"/>
+	<field id="HS00GCA" type="double" enum="false" token="false" catavg="true" name="Credit Qual BBB %"/>
+	<field id="OS603" type="double" enum="false" token="false" catavg="false" name="Price/Fair Value"/>
+	<field id="HS085" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector Non-US Corp %(Long Rescaled)"/>
+	<field id="HS086" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector Non-US Govt %(Long Rescaled)"/>
+	<field id="HS083" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector US Corporate %(Long Rescaled)"/>
+	<field id="HS07R" type="double" enum="false" token="false" catavg="true" name="Equity Style Value %(Long Rescaled)"/>
+	<field id="HS07S" type="double" enum="false" token="false" catavg="true" name="Equity Region Europe dev %(Long Rescaled)"/>
+	<field id="HS084" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector Asset-backed %(Long Rescaled)"/>
+	<field id="HS089" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector US Agency %(Long Rescaled)"/>
+	<field id="HS07X" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Super Sector Mortgage %(Long Rescaled)"/>
+	<field id="HS07Y" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Super Sector US Credit %(Long Rescaled)"/>
+	<field id="HS087" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector Municipal %(Long Rescaled)"/>
+	<field id="HS088" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector Cash %(Long Rescaled)"/>
+	<field id="HS07W" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Super Sector Non-US %(Long Rescaled)"/>
+	<field id="RR299" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 3 Mo (Qtr-End)"/>
+	<field id="RR298" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 1 Mo (Qtr-End)"/>
+	<field id="OS09R" type="long" enum="true" token="false" catavg="false" name="Morningstar Credit Rating"/>
+	<field id="HS092" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector US Treasury %(Long Rescaled)"/>
+	<field id="HS091" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector US TIPS %(Long Rescaled)"/>
+	<field id="HS090" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector US Infl Prot %(Long Rescaled)"/>
+	<field id="HS03ZCA" type="double" enum="false" token="false" catavg="true" name="Market Cap Micro %(Long Rescaled)"/>
+	<field id="IF037" type="string" enum="false" token="false" catavg="false" name=""/>
+	<field id="PM527CA" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 5 Yr (Qtr-End)"/>
+	<field id="AR008CA" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year-6}"/>
+	<field id="HS19B" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Super Sector Cash %(Long Rescaled)"/>
+	<field id="HS00ECA" type="double" enum="false" token="false" catavg="true" name="Credit Qual B %"/>
+	<field id="AR00C" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year-10}"/>
+	<field id="AR00A" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year-8}"/>
+	<field id="AR00B" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year-9}"/>
+	<field id="HS08Z" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector Convertible %(Long Rescaled)"/>
+	<field id="HS03PCA" type="double" enum="false" token="false" catavg="true" name="Market Cap Large %(Long Rescaled)"/>
+	<field id="AR009" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year-7}"/>
+	<field id="AR008" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year-6}"/>
+	<field id="AR007" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year-5}"/>
+	<field id="AR006" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year-4}"/>
+	<field id="AR005" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year-3}"/>
+	<field id="AR004" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year-2}"/>
+	<field id="AR003" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year-1}"/>
+	<field id="AR002" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year}"/>
+	<field id="PM525CA" type="double" enum="false" token="false" catavg="true" name="Total Ret 1 Yr (Qtr-End)"/>
+	<field id="OF006" type="string" enum="false" token="true" catavg="false" name=""/>
+	<field id="RR223CA" type="double" enum="false" token="false" catavg="true" name="Beta 3 Yr (Qtr-End)"/>
+	<field id="OF005" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS07ECA" type="double" enum="false" token="false" catavg="true" name="Equity Style Small Growth %(Long Rescaled)"/>
+	<field id="OF004" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="OF003" type="string" enum="true" token="false" catavg="false" name="Morningstar Category"/>
+	<field id="PM032" type="double" enum="false" token="false" catavg="false" name="12 Mo Yield"/>
+	<field id="RR217CA" type="double" enum="false" token="false" catavg="true" name="Alpha 3 Yr (Qtr-End)"/>
+	<field id="HS06ECA" type="double" enum="false" token="false" catavg="true" name="Equity Region United Kingdom %(Long Rescaled)"/>
+	<field id="RR218CA" type="double" enum="false" token="false" catavg="true" name="Alpha 5 Yr (Qtr-End)"/>
+	<field id="LH007" type="string" enum="false" token="false" catavg="false" name=""/>
+	<field id="PM00ICA" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 10 Yr (Mo-End)"/>
+	<field id="PM497CA" type="double" enum="false" token="false" catavg="true" name="Total Ret QTD (Daily)"/>
+	<field id="HS05ECA" type="double" enum="false" token="false" catavg="true" name="Credit Qual Not Rated %"/>
+	<field id="RR219CA" type="double" enum="false" token="false" catavg="true" name="Alpha 10 Yr (Qtr-End)"/>
+	<field id="PM00KCA" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 15 Yr (Mo-End)"/>
+	<field id="LT152" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="ST688" type="double" enum="false" token="false" catavg="false" name="EPS Growth % (Cont Ops) 1 Yr(FY 1)"/>
+	<field id="ST687" type="double" enum="false" token="false" catavg="false" name="EPS Growth % (Cont Ops) 10 Yr(FY 1)"/>
+	<field id="ST689" type="double" enum="false" token="false" catavg="false" name="EPS Growth % (Cont Ops) 3 Yr(FY 1)"/>
+	<field id="ST686" type="double" enum="false" token="false" catavg="false" name="Debt to Total Capital(FY Qtr End)"/>
+	<field id="PM493CA" type="double" enum="false" token="false" catavg="true" name="Total Ret 6 Mo (Daily)"/>
+	<field id="RR285" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 6 Mo (Daily)"/>
+	<field id="HS03ICA" type="double" enum="false" token="false" catavg="true" name="Equity Sector Healthcare %(Long Rescaled)"/>
+	<field id="PM494CA" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 10 Yr (Daily)"/>
+	<field id="RR286" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 10 Yr (Daily)"/>
+	<field id="RR287" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 15 Yr (Daily)"/>
+	<field id="RR288" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat MTD (Daily)"/>
+	<field id="RR289" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat QTD (Daily)"/>
+	<field id="HS00HCA" type="double" enum="false" token="false" catavg="true" name="Credit Qual Below B %"/>
+	<field id="HS05UCA" type="double" enum="false" token="false" catavg="true" name="P/S Ratio (TTM) (Long)"/>
+	<field id="HS013CA" type="double" enum="false" token="false" catavg="true" name="Equity Sector Consumer Goods %(Long Rescaled)"/>
+	<field id="PM153" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 2 Yr (Qtr-End)"/>
+	<field id="HS015CA" type="double" enum="false" token="false" catavg="true" name="Equity Sector Consumer Services %(Long Rescaled)"/>
+	<field id="OS63V" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="PM00D" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 1 Yr (Mo-End)"/>
+	<field id="PM00C" type="double" enum="false" token="false" catavg="true" name="Total Ret 1 Yr (Mo-End)"/>
+	<field id="PM00B" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat YTD (Mo-End)"/>
+	<field id="PM00A" type="double" enum="false" token="false" catavg="true" name="Total Ret YTD (Mo-End)"/>
+	<field id="PM00H" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 5 Yr (Mo-End)"/>
+	<field id="PM00G" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 5 Yr (Mo-End)"/>
+	<field id="HS00VCA" type="double" enum="false" token="false" catavg="true" name="Equity Sector Business Services %(Long Rescaled)"/>
+	<field id="HS017CA" type="double" enum="false" token="false" catavg="true" name="Equity Style Core %(Long Rescaled)"/>
+	<field id="PM00F" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 3 Yr (Mo-End)"/>
+	<field id="PM00E" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 3 Yr (Mo-End)"/>
+	<field id="PM00L" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 15 Yr  (Mo-End)"/>
+	<field id="PM00K" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 15 Yr (Mo-End)"/>
+	<field id="PM00J" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 10 Yr  (Mo-End)"/>
+	<field id="PM00I" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 10 Yr (Mo-End)"/>
+	<field id="HS05WCA" type="double" enum="false" token="false" catavg="true" name="P/C Ratio (TTM) (Long)"/>
+	<field id="ST692" type="double" enum="false" token="false" catavg="false" name="EPS Growth % (Cont Ops) 3 Mo(Last FY Qtr)"/>
+	<field id="IH007" type="string" enum="false" token="false" catavg="false" name=""/>
+	<field id="ST690" type="double" enum="false" token="false" catavg="false" name="EPS Growth % (Cont Ops) 5 Yr(FY 1)"/>
+	<field id="ST412" type="double" enum="false" token="false" catavg="false" name="P/E Ratio Current"/>
+	<field id="PM004" type="double" enum="false" token="false" catavg="true" name="Total Ret 1 Mo (Mo-End)"/>
+	<field id="ST691" type="double" enum="false" token="false" catavg="false" name="EPS Growth % (Cont Ops) 3 Mo(FY 1)"/>
+	<field id="PM005" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 1 Mo (Mo-End)"/>
+	<field id="HS05VCA" type="double" enum="false" token="false" catavg="true" name="P/B Ratio (TTM) (Long)"/>
+	<field id="PM006" type="double" enum="false" token="false" catavg="true" name="Total Ret 3 Mo (Mo-End)"/>
+	<field id="PM007" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 3 Mo (Mo-End)"/>
+	<field id="PM008" type="double" enum="false" token="false" catavg="true" name="Total Ret 6 Mo (Mo-End)"/>
+	<field id="PM009" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 6 Mo (Mo-End)"/>
+	<field id="PM141" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 2 Yr (Mo-End)"/>
+	<field id="HS05XCA" type="double" enum="false" token="false" catavg="true" name="P/E Ratio (TTM) (Long)"/>
+	<field id="PM526CA" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 3 Yr (Qtr-End)"/>
+	<field id="ST699" type="double" enum="false" token="false" catavg="false" name="EBT Margin %FY 1"/>
+	<field id="AR00BCA" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year-9}"/>
+	<field id="OS03S" type="double" enum="false" token="false" catavg="true" name="Turnover Ratio %"/>
+	<field id="HS092CA" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector US Treasury %(Long Rescaled)"/>
+	<field id="OS462" type="double" enum="false" token="false" catavg="false" name="Deferred Load"/>
+	<field id="HS090CA" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector US Infl Prot %(Long Rescaled)"/>
+	<field id="OS463" type="double" enum="false" token="false" catavg="false" name="Max Front Load"/>
+	<field id="OS460" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS04ACA" type="double" enum="false" token="false" catavg="true" name="Equity Sector Media %(Long Rescaled)"/>
+	<field id="HS02MCA" type="double" enum="false" token="false" catavg="true" name="Equity Super Sector Manufacturing %(Long Rescaled)"/>
+	<field id="RR005CA" type="double" enum="false" token="false" catavg="true" name="Alpha 10 Yr (Mo-End)"/>
+	<field id="RR004CA" type="double" enum="false" token="false" catavg="true" name="Alpha 5 Yr (Mo-End)"/>
+	<field id="OS671" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="RR103CA" type="double" enum="false" token="false" catavg="true" name="Arithmetic Mean 10 Yr (Mo-End)"/>
+	<field id="RR010CA" type="double" enum="false" token="false" catavg="true" name="Sharpe Ratio 1 Yr (Mo-End)"/>
+	<field id="RR102CA" type="double" enum="false" token="false" catavg="true" name="Arithmetic Mean 5 Yr (Mo-End)"/>
+	<field id="RR130" type="double" enum="false" token="false" catavg="true" name="Beta 15 Yr (Mo-End)"/>
+	<field id="PM532CA" type="double" enum="false" token="false" catavg="true" name="Total Ret YTD (Qtr-End)"/>
+	<field id="RR01Y" type="long" enum="true" token="false" catavg="false" name="Morningstar Rating Overall"/>
+	<field id="RR01T" type="long" enum="true" token="false" catavg="false" name="Morningstar Rating 5 Yr"/>
+	<field id="RR01S" type="long" enum="true" token="false" catavg="false" name="Morningstar Rating 3 Yr"/>
+	<field id="RR01U" type="long" enum="true" token="false" catavg="false" name="Morningstar Rating 10 Yr"/>
+	<field id="OS020" type="string" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS056CA" type="double" enum="false" token="false" catavg="true" name="Equity Sector Utilities %(Long Rescaled)"/>
+	<field id="OS01V" type="string" enum="false" token="false" catavg="false" name=""/>
+	<field id="OS01W" type="string" enum="false" token="true" catavg="false" name=""/>
+	<field id="RR184CA" type="double" enum="false" token="false" catavg="true" name="Arithmetic Mean 15 Yr (Qtr-End)"/>
+	<field id="OF025" type="string" enum="true" token="false" catavg="false" name="Overall Stewardship Grade"/>
+	<field id="PD00HCA" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 5 Yr (Daily)"/>
+	<field id="HS049CA" type="double" enum="false" token="false" catavg="true" name="Market Cap Mid %(Long Rescaled)"/>
+	<field id="RR014" type="double" enum="false" token="false" catavg="true" name="Std Dev 1 Yr (Mo-End)"/>
+	<field id="OF00A" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="RR013" type="double" enum="false" token="false" catavg="true" name="Sharpe Ratio 10 Yr (Mo-End)"/>
+	<field id="RR012" type="double" enum="false" token="false" catavg="true" name="Sharpe Ratio 5 Yr (Mo-End)"/>
+	<field id="RR011" type="double" enum="false" token="false" catavg="true" name="Sharpe Ratio 3 Yr (Mo-End)"/>
+	<field id="PM00ECA" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 3 Yr (Mo-End)"/>
+	<field id="RR017" type="double" enum="false" token="false" catavg="true" name="Std Dev 10 Yr (Mo-End)"/>
+	<field id="OF00E" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="RR016" type="double" enum="false" token="false" catavg="true" name="Std Dev 5 Yr (Mo-End)"/>
+	<field id="RR015" type="double" enum="false" token="false" catavg="true" name="Std Dev 3 Yr (Mo-End)"/>
+	<field id="OF00C" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="RR00K" type="double" enum="false" token="false" catavg="true" name="Beta 1 Yr (Mo-End)"/>
+	<field id="RR00N" type="double" enum="false" token="false" catavg="true" name="Beta 10 Yr (Mo-End)"/>
+	<field id="RR010" type="double" enum="false" token="false" catavg="true" name="Sharpe Ratio 1 Yr (Mo-End)"/>
+	<field id="RR00L" type="double" enum="false" token="false" catavg="true" name="Beta 3 Yr (Mo-End)"/>
+	<field id="RR00M" type="double" enum="false" token="false" catavg="true" name="Beta 5 Yr (Mo-End)"/>
+	<field id="OF00Q" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="PD00FCA" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 3 Yr (Daily)"/>
+	<field id="HS087CA" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector Municipal %(Long Rescaled)"/>
+	<field id="PM00GCA" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 5 Yr (Mo-End)"/>
+	<field id="OS089" type="double" enum="false" token="false" catavg="false" name="Latest Dividend"/>
+	<field id="RR225CA" type="double" enum="false" token="false" catavg="true" name="Beta 10 Yr (Qtr-End)"/>
+	<field id="RR187" type="double" enum="false" token="false" catavg="true" name="Std Dev 3 Yr (Qtr-End)"/>
+	<field id="RR188" type="double" enum="false" token="false" catavg="true" name="Std Dev 5 Yr (Qtr-End)"/>
+	<field id="RR189" type="double" enum="false" token="false" catavg="true" name="Std Dev 10 Yr (Qtr-End)"/>
+	<field id="RR180" type="double" enum="false" token="false" catavg="true" name="Arithmetic Mean 1 Yr (Qtr-End)"/>
+	<field id="RR182" type="double" enum="false" token="false" catavg="true" name="Arithmetic Mean 5 Yr (Qtr-End)"/>
+	<field id="RR181" type="double" enum="false" token="false" catavg="true" name="Arithmetic Mean 3 Yr (Qtr-End)"/>
+	<field id="RR184" type="double" enum="false" token="false" catavg="true" name="Arithmetic Mean 15 Yr (Qtr-End)"/>
+	<field id="HS091CA" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector US TIPS %(Long Rescaled)"/>
+	<field id="RR183" type="double" enum="false" token="false" catavg="true" name="Arithmetic Mean 10 Yr (Qtr-End)"/>
+	<field id="RR186" type="double" enum="false" token="false" catavg="true" name="Std Dev 1 Yr (Qtr-End)"/>
+	<field id="PD005CA" type="double" enum="false" token="false" catavg="true" name="Total Ret 1 Wk (Daily)"/>
+	<field id="AR00CCA" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year-10}"/>
+	<field id="AR00ACA" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year-8}"/>
+	<field id="RR017CA" type="double" enum="false" token="false" catavg="true" name="Std Dev 10 Yr (Mo-End)"/>
+	<field id="HS03GCA" type="double" enum="false" token="false" catavg="true" name="Equity Sector Hardware %(Long Rescaled)"/>
+	<field id="PD014" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 2 Yr (Daily)"/>
+	<field id="AA071" type="string" enum="true" token="false" catavg="false" name="Morningstar Institutional Category"/>
+	<field id="RR00NCA" type="double" enum="false" token="false" catavg="true" name="Beta 10 Yr (Mo-End)"/>
+	<field id="PD00I" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 5 Yr (Daily)"/>
+	<field id="PD00H" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 5 Yr (Daily)"/>
+	<field id="PD00G" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 3 Yr (Daily)"/>
+	<field id="PD00F" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 3 Yr (Daily)"/>
+	<field id="PD00E" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 1 Yr (Daily)"/>
+	<field id="PD00D" type="double" enum="false" token="false" catavg="true" name="Total Ret 1 Yr (Daily)"/>
+	<field id="PD00B" type="double" enum="false" token="false" catavg="true" name="Total Ret YTD (Daily)"/>
+	<field id="RR011CA" type="double" enum="false" token="false" catavg="true" name="Sharpe Ratio 3 Yr (Mo-End)"/>
+	<field id="PD00C" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat YTD (Daily)"/>
+	<field id="PD007CA" type="double" enum="false" token="false" catavg="true" name="Total Ret 1 Mo (Daily)"/>
+	<field id="PD00A" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 3 Mo (Daily)"/>
+	<field id="HS05CCA" type="double" enum="false" token="false" catavg="true" name="Equity Region North America %(Long Rescaled)"/>
+	<field id="PM495CA" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 15 Yr (Daily)"/>
+	<field id="ST203" type="long" enum="true" token="false" catavg="false" name="Growth Grade"/>
+	<field id="PM496CA" type="double" enum="false" token="false" catavg="true" name="Total Ret MTD (Daily)"/>
+	<field id="ST204" type="long" enum="true" token="false" catavg="false" name="Profitability Grade"/>
+	<field id="ST205" type="long" enum="true" token="false" catavg="false" name="Financial Health Grade"/>
+	<field id="PD008" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 1 Mo (Daily)"/>
+	<field id="PD009" type="double" enum="false" token="false" catavg="true" name="Total Ret 3 Mo(Daily)"/>
+	<field id="LI022" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="PD006" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 1 Wk (Daily)"/>
+	<field id="LI021" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="PD007" type="double" enum="false" token="false" catavg="true" name="Total Ret 1 Mo (Daily)"/>
+	<field id="ST200" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="ST201" type="long" enum="true" token="false" catavg="false" name="Fair Value Uncertainty"/>
+	<field id="PD004" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 1 Day (Daily)"/>
+	<field id="PD005" type="double" enum="false" token="false" catavg="true" name="Total Ret 1 Wk (Daily)"/>
+	<field id="ST202" type="double" enum="false" token="false" catavg="false" name="Morningstar Fair Value per Share"/>
+	<field id="HS19BCA" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Super Sector Cash %(Long Rescaled)"/>
+	<field id="PM006CA" type="double" enum="false" token="false" catavg="true" name="Total Ret 3 Mo (Mo-End)"/>
+	<field id="PM524CA" type="double" enum="false" token="false" catavg="true" name="Total Ret 6 Mo (Qtr-End)"/>
+	<field id="PD003" type="double" enum="false" token="false" catavg="true" name="Total Ret 1 Day (Daily)"/>
+	<field id="OS05M" type="string" enum="false" token="false" catavg="false" name=""/>
+	<field id="OS05P" type="double" enum="false" token="false" catavg="true" name="Prospectus Net Expense Ratio"/>
+	<field id="OS061" type="datetime" enum="false" token="false" catavg="false" name=""/>
+	<field id="OS44A" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="OS05PCA" type="double" enum="false" token="false" catavg="true" name="Prospectus Net Expense Ratio"/>
+	<field id="PM004CA" type="double" enum="false" token="false" catavg="true" name="Total Ret 1 Mo (Mo-End)"/>
+	<field id="ST216" type="double" enum="false" token="false" catavg="false" name="Revenue (mil)TTM"/>
+	<field id="OS06Y" type="string" enum="false" token="false" catavg="false" name=""/>
+	<field id="OS458" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS086CA" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector Non-US Govt %(Long Rescaled)"/>
+	<field id="OS074" type="string" enum="false" token="true" catavg="false" name=""/>
+	<field id="HS039CA" type="double" enum="false" token="false" catavg="true" name="Market Cap Giant %(Long Rescaled)"/>
+	<field id="HS03OCA" type="double" enum="false" token="false" catavg="true" name="Equity Style Large Cap %(Long Rescaled)"/>
+	<field id="AR009CA" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year-7}"/>
+	<field id="AR004CA" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year-2}"/>
+	<field id="PM528CA" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 10 Yr (Qtr-End)"/>
+	<field id="RR190" type="double" enum="false" token="false" catavg="true" name="Std Dev 15 Yr (Qtr-End)"/>
+	<field id="HS00FCA" type="double" enum="false" token="false" catavg="true" name="Credit Qual BB %"/>
+	<field id="AR003CA" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year-1}"/>
+	<field id="HS07WCA" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Super Sector Non-US %(Long Rescaled)"/>
+	<field id="HS088CA" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector Cash %(Long Rescaled)"/>
+	<field id="OS00MCA" type="double" enum="false" token="false" catavg="true" name="Annual Report Net Expense Ratio"/>
+	<field id="HS07XCA" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Super Sector Mortgage %(Long Rescaled)"/>
+	<field id="HS089CA" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector US Agency %(Long Rescaled)"/>
+	<field id="PM529CA" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 15 Yr (Qtr-End)"/>
+	<field id="AR005CA" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year-3}"/>
+	<field id="AR007CA" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year-5}"/>
+	<field id="RR186CA" type="double" enum="false" token="false" catavg="true" name="Std Dev 1 Yr (Qtr-End)"/>
+	<field id="ST112" type="string" enum="true" token="false" catavg="false" name="Morningstar Fair  Value Status"/>
+	<field id="HS079CA" type="double" enum="false" token="false" catavg="true" name="Equity Style Mid Value %(Long Rescaled)"/>
+	<field id="STA66" type="double" enum="false" token="false" catavg="false" name="Forward Earnings Yield %"/>
+	<field id="PM523CA" type="double" enum="false" token="false" catavg="true" name="Total Ret 3 Mo (Qtr-End)"/>
+	<field id="PM522CA" type="double" enum="false" token="false" catavg="true" name="Total Ret 1 Mo (Qtr-End)"/>
+	<field id="STA64" type="double" enum="false" token="false" catavg="false" name="Earnings Yield % TTM"/>
+	<field id="STA65" type="double" enum="false" token="false" catavg="false" name="Forward Dividend Yield %"/>
+	<field id="STA4Z" type="double" enum="false" token="false" catavg="false" name="ROIC (TTM)"/>
+	<field id="RR002CA" type="double" enum="false" token="false" catavg="true" name="Alpha 1 Yr (Mo-End)"/>
+	<field id="XI018" type="string" enum="false" token="true" catavg="false" name=""/>
+	<field id="ST734" type="double" enum="false" token="false" catavg="false" name="Gross Margin %FY 1"/>
+	<field id="HS085CA" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector Non-US Corp %(Long Rescaled)"/>
+	<field id="HS03LCA" type="double" enum="false" token="false" catavg="true" name="Equity Sector Industrial Materials %(Long Rescaled)"/>
+	<field id="HS081CA" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector Mortgage CMO %(Long Rescaled)"/>
+	<field id="RR220CA" type="double" enum="false" token="false" catavg="true" name="Alpha 15 Yr (Qtr-End)"/>
+	<field id="RR003CA" type="double" enum="false" token="false" catavg="true" name="Alpha 3 Yr (Mo-End)"/>
+	<field id="PD003CA" type="double" enum="false" token="false" catavg="true" name="Total Ret 1 Day (Daily)"/>
+	<field id="IS018" type="string" enum="false" token="false" catavg="false" name=""/>
+	<field id="RR002" type="double" enum="false" token="false" catavg="true" name="Alpha 1 Yr (Mo-End)"/>
+	<field id="RR003" type="double" enum="false" token="false" catavg="true" name="Alpha 3 Yr (Mo-End)"/>
+	<field id="HS03ECA" type="double" enum="false" token="false" catavg="true" name="Equity Style Growth %(Long Rescaled)"/>
+	<field id="RR004" type="double" enum="false" token="false" catavg="true" name="Alpha 5 Yr (Mo-End)"/>
+	<field id="RR005" type="double" enum="false" token="false" catavg="true" name="Alpha 10 Yr (Mo-End)"/>
+	<field id="RR130CA" type="double" enum="false" token="false" catavg="true" name="Beta 15 Yr (Mo-End)"/>
+	<field id="STA49" type="double" enum="false" token="false" catavg="false" name="Beta 5 Yr (Qtr-End)"/>
+	<field id="RR182CA" type="double" enum="false" token="false" catavg="true" name="Arithmetic Mean 5 Yr (Qtr-End)"/>
+	<field id="STA48" type="double" enum="false" token="false" catavg="false" name="Beta 3 Yr (Qtr-End)"/>
+	<field id="STA45" type="double" enum="false" token="false" catavg="false" name="Beta 5 Yr (Mo-End)"/>
+	<field id="HS03CCA" type="double" enum="false" token="false" catavg="true" name="Equity Region Greater Asia %(Long Rescaled)"/>
+	<field id="STA44" type="double" enum="false" token="false" catavg="false" name="Beta 3 Yr (Mo-End)"/>
+	<field id="STA47" type="double" enum="false" token="false" catavg="false" name="Alpha 5 Yr (Qtr-End)"/>
+	<field id="STA46" type="double" enum="false" token="false" catavg="false" name="Alpha 3 Yr (Qtr-End)"/>
+	<field id="LS01Z" type="string" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS03DCA" type="double" enum="false" token="false" catavg="true" name="Equity Region Greater Europe %(Long Rescaled)"/>
+	<field id="STA43" type="double" enum="false" token="false" catavg="false" name="Alpha 5 Yr (Mo-End)"/>
+	<field id="STA42" type="double" enum="false" token="false" catavg="false" name="Alpha 3 Yr (Mo-End)"/>
+	<field id="RR216CA" type="double" enum="false" token="false" catavg="true" name="Alpha 1 Yr (Qtr-End)"/>
+	<field id="HS07BCA" type="double" enum="false" token="false" catavg="true" name="Equity Style Mid Growth %(Long Rescaled)"/>
+	<field id="HS07ACA" type="double" enum="false" token="false" catavg="true" name="Equity Style Mid Core %(Long Rescaled)"/>
+	<field id="OS019" type="string" enum="false" token="true" catavg="false" name=""/>
+	<field id="RR189CA" type="double" enum="false" token="false" catavg="true" name="Std Dev 10 Yr (Qtr-End)"/>
+	<field id="OS017" type="string" enum="false" token="true" catavg="false" name=""/>
+	<field id="LS017" type="string" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS11BCA" type="double" enum="false" token="false" catavg="true" name="Asset Alloc Cash %(Net)"/>
+	<field id="OS011" type="string" enum="false" token="true" catavg="false" name=""/>
+	<field id="PD00DCA" type="double" enum="false" token="false" catavg="true" name="Total Ret 1 Yr (Daily)"/>
+	<field id="RR217" type="double" enum="false" token="false" catavg="true" name="Alpha 3 Yr (Qtr-End)"/>
+	<field id="OS00M" type="double" enum="false" token="false" catavg="true" name="Annual Report Net Expense Ratio"/>
+	<field id="RR218" type="double" enum="false" token="false" catavg="true" name="Alpha 5 Yr (Qtr-End)"/>
+	<field id="AR006CA" type="double" enum="false" token="false" catavg="true" name="Annual Ret {year-4}"/>
+	<field id="OS010" type="string" enum="false" token="false" catavg="false" name=""/>
+	<field id="RR219" type="double" enum="false" token="false" catavg="true" name="Alpha 10 Yr (Qtr-End)"/>
+	<field id="OS00N" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="OS00I" type="string" enum="false" token="false" catavg="false" name=""/>
+	<field id="RR216" type="double" enum="false" token="false" catavg="true" name="Alpha 1 Yr (Qtr-End)"/>
+	<field id="OS00J" type="double" enum="false" token="false" catavg="false" name="Annual Report Gross Expense Ratio"/>
+	<field id="HS11CCA" type="double" enum="false" token="false" catavg="true" name="Asset Alloc Equity %(Net)"/>
+	<field id="ST816" type="string" enum="false" token="false" catavg="false" name=""/>
+	<field id="OS00F" type="datetime" enum="true" token="false" catavg="false" name="Inception Date"/>
+	<field id="STA2K" type="double" enum="false" token="false" catavg="false" name="Close as Moving Avg 60 Day (Daily)"/>
+	<field id="STA2J" type="double" enum="false" token="false" catavg="false" name="Close as Moving Avg 50 Day (Daily)"/>
+	<field id="STA2M" type="double" enum="false" token="false" catavg="false" name="Close as Moving Avg 200 Day (Daily)"/>
+	<field id="STA2L" type="double" enum="false" token="false" catavg="false" name="Close as Moving Avg 90 Day (Daily)"/>
+	<field id="STA2O" type="double" enum="false" token="false" catavg="false" name="Close as Moving Avg 1 Yr (Daily)"/>
+	<field id="HS08ZCA" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector Convertible %(Long Rescaled)"/>
+	<field id="STA2N" type="double" enum="false" token="false" catavg="false" name="Close as Moving Avg 30 Wk (Daily)"/>
+	<field id="STA2P" type="double" enum="false" token="false" catavg="false" name="Close as Moving Avg 5 Yr (Daily)"/>
+	<field id="STA2E" type="double" enum="false" token="false" catavg="false" name="Close as Moving Avg 5 Day (Daily)"/>
+	<field id="ST159" type="double" enum="false" token="false" catavg="false" name="Market Cap (mil) (Daily)"/>
+	<field id="STA2G" type="double" enum="false" token="false" catavg="false" name="Close as Moving Avg 13 Day (Daily)"/>
+	<field id="STA2F" type="double" enum="false" token="false" catavg="false" name="Close as Moving Avg 10 Day (Daily)"/>
+	<field id="HS11FCA" type="double" enum="false" token="false" catavg="true" name="Asset Alloc Bond %(Net)"/>
+	<field id="STA2I" type="double" enum="false" token="false" catavg="false" name="Close as Moving Avg 30 Day (Daily)"/>
+	<field id="STA2H" type="double" enum="false" token="false" catavg="false" name="Close as Moving Avg 20 Day (Daily)"/>
+	<field id="OS001" type="string" enum="false" token="false" catavg="false" name=""/>
+	<field id="RR128" type="double" enum="false" token="false" catavg="true" name="Alpha 15 Yr (Mo-End)"/>
+	<field id="RR226" type="double" enum="false" token="false" catavg="true" name="Beta 15 Yr (Qtr-End)"/>
+	<field id="RR224" type="double" enum="false" token="false" catavg="true" name="Beta 5 Yr (Qtr-End)"/>
+	<field id="RR225" type="double" enum="false" token="false" catavg="true" name="Beta 10 Yr (Qtr-End)"/>
+	<field id="RR222" type="double" enum="false" token="false" catavg="true" name="Beta 1 Yr (Qtr-End)"/>
+	<field id="RR223" type="double" enum="false" token="false" catavg="true" name="Beta 3 Yr (Qtr-End)"/>
+	<field id="RR220" type="double" enum="false" token="false" catavg="true" name="Alpha 15 Yr (Qtr-End)"/>
+	<field id="RR187CA" type="double" enum="false" token="false" catavg="true" name="Std Dev 3 Yr (Qtr-End)"/>
+	<field id="RR106CA" type="double" enum="false" token="false" catavg="true" name="Std Dev 15 Yr (Mo-End)"/>
+	<field id="PM523" type="double" enum="false" token="false" catavg="true" name="Total Ret 3 Mo (Qtr-End)"/>
+	<field id="RR128CA" type="double" enum="false" token="false" catavg="true" name="Alpha 15 Yr (Mo-End)"/>
+	<field id="PM522" type="double" enum="false" token="false" catavg="true" name="Total Ret 1 Mo (Qtr-End)"/>
+	<field id="PM525" type="double" enum="false" token="false" catavg="true" name="Total Ret 1 Yr (Qtr-End)"/>
+	<field id="PM524" type="double" enum="false" token="false" catavg="true" name="Total Ret 6 Mo (Qtr-End)"/>
+	<field id="PM527" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 5 Yr (Qtr-End)"/>
+	<field id="PM526" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 3 Yr (Qtr-End)"/>
+	<field id="ST181" type="string" enum="false" token="false" catavg="false" name=""/>
+	<field id="PM529" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 15 Yr (Qtr-End)"/>
+	<field id="PM528" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 10 Yr (Qtr-End)"/>
+	<field id="STA0M" type="double" enum="false" token="false" catavg="false" name="Avg Volume (in Mil) 5 Yr (Daily)"/>
+	<field id="STA0L" type="double" enum="false" token="false" catavg="false" name="Avg Volume (in Mil) 3 Yr (Daily)"/>
+	<field id="STA0N" type="double" enum="false" token="false" catavg="false" name="Avg Volume (in Mil) 10 Yr (Daily)"/>
+	<field id="STA0I" type="double" enum="false" token="false" catavg="false" name="Avg Volume (in Mil) 6 Mo (Daily)"/>
+	<field id="STA0H" type="double" enum="false" token="false" catavg="false" name="Avg Volume (in Mil) 3 Mo (Daily)"/>
+	<field id="STA0K" type="double" enum="false" token="false" catavg="false" name="Avg Volume (in Mil) 1 Yr (Daily)"/>
+	<field id="OS385" type="string" enum="false" token="false" catavg="false" name=""/>
+	<field id="STA0J" type="double" enum="false" token="false" catavg="false" name="Avg Volume (in Mil) 9 Mo (Daily)"/>
+	<field id="STA0E" type="double" enum="false" token="false" catavg="false" name="Avg Volume (in Mil) 1 Wk (Daily)"/>
+	<field id="STA0G" type="double" enum="false" token="false" catavg="false" name="Avg Volume (in Mil) 1 Mo (Daily)"/>
+	<field id="STA0F" type="double" enum="false" token="false" catavg="false" name="Avg Volume (in Mil) 2 Wk (Daily)"/>
+	<field id="RR183CA" type="double" enum="false" token="false" catavg="true" name="Arithmetic Mean 10 Yr (Qtr-End)"/>
+	<field id="ST703" type="double" enum="false" token="false" catavg="false" name="EPS Growth %5 Yr(FY 1)"/>
+	<field id="ST702" type="double" enum="false" token="false" catavg="false" name="EPS Growth %10 Yr(FY 1)"/>
+	<field id="RR106" type="double" enum="false" token="false" catavg="true" name="Std Dev 15 Yr (Mo-End)"/>
+	<field id="ST705" type="double" enum="false" token="false" catavg="false" name="EPS Growth %3 Mo(Last FY Qtr)"/>
+	<field id="RR103" type="double" enum="false" token="false" catavg="true" name="Arithmetic Mean 10 Yr (Mo-End)"/>
+	<field id="ST704" type="double" enum="false" token="false" catavg="false" name="EPS Growth% 3 Mo(FY 1)"/>
+	<field id="RR104" type="double" enum="false" token="false" catavg="true" name="Arithmetic Mean 15 Yr (Mo-End)"/>
+	<field id="RR101" type="double" enum="false" token="false" catavg="true" name="Arithmetic Mean 3 Yr (Mo-End)"/>
+	<field id="HS603" type="long" enum="true" token="false" catavg="false" name="Average Credit Quality"/>
+	<field id="RR181CA" type="double" enum="false" token="false" catavg="true" name="Arithmetic Mean 3 Yr (Qtr-End)"/>
+	<field id="RR102" type="double" enum="false" token="false" catavg="true" name="Arithmetic Mean 5 Yr (Mo-End)"/>
+	<field id="ST172" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS07ICA" type="double" enum="false" token="false" catavg="true" name="Equity Sector Telecom %(Long Rescaled)"/>
+	<field id="RR100" type="double" enum="false" token="false" catavg="true" name="Arithmetic Mean 1 Yr (Mo-End)"/>
+	<field id="PD014CA" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 2 Yr (Daily)"/>
+	<field id="PM532" type="double" enum="false" token="false" catavg="true" name="Total Ret YTD (Qtr-End)"/>
+	<field id="STA01" type="double" enum="false" token="false" catavg="false" name="Float Shares % Current"/>
+	<field id="ST391" type="double" enum="false" token="false" catavg="false" name="Debt to Equity(FY Qtr End)"/>
+	<field id="ST392" type="double" enum="false" token="false" catavg="false" name="Debt to Total CapFY 1"/>
+	<field id="XX039" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="XX038" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="XX037" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="XX036" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="XX035" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="ST292" type="double" enum="false" token="false" catavg="false" name="Dividend per ShareTTM"/>
+	<field id="XX034" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS07ZCA" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Super Sector US Govt Debt %(Long Rescaled)"/>
+	<field id="XX033" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS06ZCA" type="double" enum="false" token="false" catavg="true" name="Equity Sector Software %(Long Rescaled)"/>
+	<field id="XX031" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="XX032" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="XX030" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="ST299" type="double" enum="false" token="false" catavg="false" name="Dividend Yield % TTM"/>
+	<field id="ST398" type="double" enum="false" token="false" catavg="false" name="Net Margin %TTM"/>
+	<field id="ST399" type="double" enum="false" token="false" catavg="false" name="Net Margin %FY 1"/>
+	<field id="PM008CA" type="double" enum="false" token="false" catavg="true" name="Total Ret 6 Mo (Mo-End)"/>
+	<field id="HS02LCA" type="double" enum="false" token="false" catavg="true" name="Equity Super Sector Service %(Long Rescaled)"/>
+	<field id="HS077CA" type="double" enum="false" token="false" catavg="true" name="Equity Style Large Core %(Long Rescaled)"/>
+	<field id="HS06VCA" type="double" enum="false" token="false" catavg="true" name="Equity Style Small Cap %(Long Rescaled)"/>
+	<field id="XX049" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="RR188CA" type="double" enum="false" token="false" catavg="true" name="Std Dev 5 Yr (Qtr-End)"/>
+	<field id="XX048" type="string" enum="false" token="false" catavg="false" name=""/>
+	<field id="XX045" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="ST198" type="double" enum="false" token="false" catavg="false" name="P/E Ratio Forward"/>
+	<field id="XX044" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="XX047" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS02KCA" type="double" enum="false" token="false" catavg="true" name="Equity Super Sector Information %(Long Rescaled)"/>
+	<field id="XX046" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="XX040" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="XX041" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="XX042" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS06MCA" type="double" enum="false" token="false" catavg="true" name="Equity Region Asia emrg %(Long Rescaled)"/>
+	<field id="XX043" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS02SCA" type="double" enum="false" token="false" catavg="true" name="Equity Sector Energy %(Long Rescaled)"/>
+	<field id="HS06NCA" type="double" enum="false" token="false" catavg="true" name="Equity Region Asia dev %(Long Rescaled)"/>
+	<field id="RR00LCA" type="double" enum="false" token="false" catavg="true" name="Beta 3 Yr (Mo-End)"/>
+	<field id="HS11B" type="double" enum="false" token="false" catavg="true" name="Asset Alloc Cash %(Net)"/>
+	<field id="RR180CA" type="double" enum="false" token="false" catavg="true" name="Arithmetic Mean 1 Yr (Qtr-End)"/>
+	<field id="HS11F" type="double" enum="false" token="false" catavg="true" name="Asset Alloc Bond %(Net)"/>
+	<field id="HS11E" type="double" enum="false" token="false" catavg="false" name="Asset Alloc Non-US Equity % (Net)"/>
+	<field id="HS11D" type="double" enum="false" token="false" catavg="false" name="Asset Alloc US Equity %(Net)"/>
+	<field id="HS11C" type="double" enum="false" token="false" catavg="true" name="Asset Alloc Equity %(Net)"/>
+	<field id="HS11I" type="double" enum="false" token="false" catavg="false" name="Asset Alloc Other %(Net)"/>
+	<field id="HS11H" type="double" enum="false" token="false" catavg="false" name="Asset Alloc Non-US Bond % (Net)"/>
+	<field id="HS11G" type="double" enum="false" token="false" catavg="false" name="Asset Alloc US Bond %(Net)"/>
+	<field id="XX050" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS07RCA" type="double" enum="false" token="false" catavg="true" name="Equity Style Value %(Long Rescaled)"/>
+	<field id="HS083CA" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector US Corporate %(Long Rescaled)"/>
+	<field id="ST279" type="double" enum="false" token="false" catavg="false" name="EPS Growth %3 Yr(FY 1)"/>
+	<field id="ST278" type="double" enum="false" token="false" catavg="false" name="EPS Growth %1 Yr(FY 1)"/>
+	<field id="HS019" type="double" enum="false" token="false" catavg="false" name="Average Coupon"/>
+	<field id="HS00V" type="double" enum="false" token="false" catavg="true" name="Equity Sector Business Services %(Long Rescaled)"/>
+	<field id="HS017" type="double" enum="false" token="false" catavg="true" name="Equity Style Core %(Long Rescaled)"/>
+	<field id="XX051" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS015" type="double" enum="false" token="false" catavg="true" name="Equity Sector Consumer Services %(Long Rescaled)"/>
+	<field id="HS013" type="double" enum="false" token="false" catavg="true" name="Equity Sector Consumer Goods %(Long Rescaled)"/>
+	<field id="HS00L" type="long" enum="true" token="false" catavg="false" name="Fixed Inc Style Box (Long)"/>
+	<field id="PM00CCA" type="double" enum="false" token="false" catavg="true" name="Total Ret 1 Yr (Mo-End)"/>
+	<field id="HS00H" type="double" enum="false" token="false" catavg="true" name="Credit Qual Below B %"/>
+	<field id="HS00G" type="double" enum="false" token="false" catavg="true" name="Credit Qual BBB %"/>
+	<field id="HS00F" type="double" enum="false" token="false" catavg="true" name="Credit Qual BB %"/>
+	<field id="HS00E" type="double" enum="false" token="false" catavg="true" name="Credit Qual B %"/>
+	<field id="RR190CA" type="double" enum="false" token="false" catavg="true" name="Std Dev 15 Yr (Qtr-End)"/>
+	<field id="HS009" type="double" enum="false" token="false" catavg="true" name="Equity Region Americas %(Long Rescaled)"/>
+	<field id="HS003" type="double" enum="false" token="false" catavg="true" name="Credit Qual AA %"/>
+	<field id="HS004" type="double" enum="false" token="false" catavg="true" name="Credit Qual AAA %"/>
+	<field id="HS006" type="double" enum="false" token="false" catavg="true" name="Equity Region Africa/Middle East %(Long Rescaled)"/>
+	<field id="HS002" type="double" enum="false" token="false" catavg="true" name="Credit Qual A %"/>
+	<field id="PM00ACA" type="double" enum="false" token="false" catavg="true" name="Total Ret YTD (Mo-End)"/>
+	<field id="HS03D" type="double" enum="false" token="false" catavg="true" name="Equity Region Greater Europe %(Long Rescaled)"/>
+	<field id="HS03E" type="double" enum="false" token="false" catavg="true" name="Equity Style Growth %(Long Rescaled)"/>
+	<field id="HS02ZCA" type="double" enum="false" token="false" catavg="true" name="Equity Sector Financial Services %(Long Rescaled)"/>
+	<field id="HS03C" type="double" enum="false" token="false" catavg="true" name="Equity Region Greater Asia %(Long Rescaled)"/>
+	<field id="HS004CA" type="double" enum="false" token="false" catavg="true" name="Credit Qual AAA %"/>
+	<field id="HS03I" type="double" enum="false" token="false" catavg="true" name="Equity Sector Healthcare %(Long Rescaled)"/>
+	<field id="HS03G" type="double" enum="false" token="false" catavg="true" name="Equity Sector Hardware %(Long Rescaled)"/>
+	<field id="HS03L" type="double" enum="false" token="false" catavg="true" name="Equity Sector Industrial Materials %(Long Rescaled)"/>
+	<field id="ST352" type="double" enum="false" token="false" catavg="false" name="% Rank Ind 1 Mo (Daily)"/>
+	<field id="HS07YCA" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Super Sector US Credit %(Long Rescaled)"/>
+	<field id="ST353" type="double" enum="false" token="false" catavg="false" name="% Rank Ind 3 Mo (Daily)"/>
+	<field id="ST354" type="double" enum="false" token="false" catavg="false" name="% Rank Ind YTD (Daily)"/>
+	<field id="HS002CA" type="double" enum="false" token="false" catavg="true" name="Credit Qual A %"/>
+	<field id="ST355" type="double" enum="false" token="false" catavg="false" name="% Rank Ind 1 Yr (Daily)"/>
+	<field id="HS02N" type="double" enum="false" token="false" catavg="false" name="Equity Region Emerging %(Long Rescaled)"/>
+	<field id="ST356" type="double" enum="false" token="false" catavg="false" name="% Rank Ind Ann 3 Yr (Daily)"/>
+	<field id="HS02M" type="double" enum="false" token="false" catavg="true" name="Equity Super Sector Manufacturing %(Long Rescaled)"/>
+	<field id="ST357" type="double" enum="false" token="false" catavg="false" name="% Rank Ind Ann 5 Yr (Daily)"/>
+	<field id="ST358" type="double" enum="false" token="false" catavg="false" name="% Rank Ind Ann 10 Yr (Daily)"/>
+	<field id="HS02S" type="double" enum="false" token="false" catavg="true" name="Equity Sector Energy %(Long Rescaled)"/>
+	<field id="HS039" type="double" enum="false" token="false" catavg="true" name="Market Cap Giant %(Long Rescaled)"/>
+	<field id="HS003CA" type="double" enum="false" token="false" catavg="true" name="Credit Qual AA %"/>
+	<field id="HS02Z" type="double" enum="false" token="false" catavg="true" name="Equity Sector Financial Services %(Long Rescaled)"/>
+	<field id="HS02Y" type="double" enum="false" token="false" catavg="false" name="Equity Sector Rescaling Factor (Long)"/>
+	<field id="HS07DCA" type="double" enum="false" token="false" catavg="true" name="Equity Style Small Core %(Long Rescaled)"/>
+	<field id="XX004" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="PM493" type="double" enum="false" token="false" catavg="true" name="Total Ret 6 Mo (Daily)"/>
+	<field id="XX005" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="ST263" type="double" enum="false" token="false" catavg="false" name="EPS TTM"/>
+	<field id="XX006" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="PM495" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 15 Yr (Daily)"/>
+	<field id="HS076CA" type="double" enum="false" token="false" catavg="true" name="Equity Style Large Value %(Long Rescaled)"/>
+	<field id="XX007" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="PM494" type="double" enum="false" token="false" catavg="true" name="Total Ret Annlzd 10 Yr (Daily)"/>
+	<field id="HS02A" type="double" enum="false" token="false" catavg="false" name="Equity Region Developed %(Long Rescaled)"/>
+	<field id="PM497" type="double" enum="false" token="false" catavg="true" name="Total Ret QTD (Daily)"/>
+	<field id="XX001" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="PM496" type="double" enum="false" token="false" catavg="true" name="Total Ret MTD (Daily)"/>
+	<field id="XX002" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="XX003" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="PD00BCA" type="double" enum="false" token="false" catavg="true" name="Total Ret YTD (Daily)"/>
+	<field id="HS02F" type="double" enum="false" token="false" catavg="false" name="Average Eff Duration"/>
+	<field id="FMI5P" type="double" enum="false" token="false" catavg="false" name="EBITDA (mil)FY 1"/>
+	<field id="XX008" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS006CA" type="double" enum="false" token="false" catavg="true" name="Equity Region Africa/Middle East %(Long Rescaled)"/>
+	<field id="XX009" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS02K" type="double" enum="false" token="false" catavg="true" name="Equity Super Sector Information %(Long Rescaled)"/>
+	<field id="HS02L" type="double" enum="false" token="false" catavg="true" name="Equity Super Sector Service %(Long Rescaled)"/>
+	<field id="HS07CCA" type="double" enum="false" token="false" catavg="true" name="Equity Style Small Value %(Long Rescaled)"/>
+	<field id="HS078CA" type="double" enum="false" token="false" catavg="true" name="Equity Style Large Growth %(Long Rescaled)"/>
+	<field id="HS009CA" type="double" enum="false" token="false" catavg="true" name="Equity Region Americas %(Long Rescaled)"/>
+	<field id="XX013" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="XX014" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="XX011" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="XX012" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS05E" type="double" enum="false" token="false" catavg="true" name="Credit Qual Not Rated %"/>
+	<field id="XX017" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS05B" type="double" enum="false" token="false" catavg="false" name="Average Eff Maturity"/>
+	<field id="XX018" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="RR308" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat YTD (Qtr-End)"/>
+	<field id="HS05C" type="double" enum="false" token="false" catavg="true" name="Equity Region North America %(Long Rescaled)"/>
+	<field id="RR00KCA" type="double" enum="false" token="false" catavg="true" name="Beta 1 Yr (Mo-End)"/>
+	<field id="XX015" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="RR305" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 15 Yr (Qtr-End)"/>
+	<field id="HS05A" type="long" enum="true" token="false" catavg="false" name="Equity Style Box (Long)"/>
+	<field id="XX016" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="RR303" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 5 Yr (Qtr-End)"/>
+	<field id="RR304" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 10 Yr (Qtr-End)"/>
+	<field id="RR301" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 1 Yr (Qtr-End)"/>
+	<field id="XX019" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="RR302" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 3 Yr (Qtr-End)"/>
+	<field id="HS082CA" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector Mortgage ARM %(Long Rescaled)"/>
+	<field id="RR300" type="long" enum="false" token="false" catavg="false" name="Total Ret % Rank Cat 6 Mo (Qtr-End)"/>
+	<field id="ST370" type="double" enum="false" token="false" catavg="false" name="ROA %FY 1"/>
+	<field id="HS056" type="double" enum="false" token="false" catavg="true" name="Equity Sector Utilities %(Long Rescaled)"/>
+	<field id="FH007" type="datetime" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS084CA" type="double" enum="false" token="false" catavg="true" name="Fixed-Inc Sector Asset-backed %(Long Rescaled)"/>
+	<field id="HS07SCA" type="double" enum="false" token="false" catavg="true" name="Equity Region Europe dev %(Long Rescaled)"/>
+	<field id="HS06KCA" type="double" enum="false" token="false" catavg="true" name="Equity Region Japan %(Long Rescaled)"/>
+	<field id="ST377" type="double" enum="false" token="false" catavg="false" name="ROE %FY 1"/>
+	<field id="PD009CA" type="double" enum="false" token="false" catavg="true" name="Total Ret 3 Mo(Daily)"/>
+	<field id="HS06LCA" type="double" enum="false" token="false" catavg="true" name="Equity Region Australasia %(Long Rescaled)"/>
+	<field id="XX010" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="OS03SCA" type="double" enum="false" token="false" catavg="true" name="Turnover Ratio %"/>
+	<field id="XX022" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="XX023" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="XX024" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="XX025" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="XX026" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="RR014CA" type="double" enum="false" token="false" catavg="true" name="Std Dev 1 Yr (Mo-End)"/>
+	<field id="XX027" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="ST241" type="double" enum="false" token="false" catavg="false" name="Net Income (mil)TTM"/>
+	<field id="HS04A" type="double" enum="false" token="false" catavg="true" name="Equity Sector Media %(Long Rescaled)"/>
+	<field id="XX028" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS04B" type="double" enum="false" token="false" catavg="true" name="Equity Style Mid Cap %(Long Rescaled)"/>
+	<field id="XX029" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="RR013CA" type="double" enum="false" token="false" catavg="true" name="Sharpe Ratio 10 Yr (Mo-End)"/>
+	<field id="ST783" type="double" enum="false" token="false" catavg="false" name="ROIC %FY 1"/>
+	<field id="RR015CA" type="double" enum="false" token="false" catavg="true" name="Std Dev 3 Yr (Mo-End)"/>
+	<field id="HS03O" type="double" enum="false" token="false" catavg="true" name="Equity Style Large Cap %(Long Rescaled)"/>
+	<field id="ST389" type="double" enum="false" token="false" catavg="false" name="Debt to EquityFY 1"/>
+	<field id="HS03P" type="double" enum="false" token="false" catavg="true" name="Market Cap Large %(Long Rescaled)"/>
+	<field id="HS03Z" type="double" enum="false" token="false" catavg="true" name="Market Cap Micro %(Long Rescaled)"/>
+	<field id="RR226CA" type="double" enum="false" token="false" catavg="true" name="Beta 15 Yr (Qtr-End)"/>
+	<field id="RR016CA" type="double" enum="false" token="false" catavg="true" name="Std Dev 5 Yr (Mo-End)"/>
+	<field id="XX021" type="long" enum="false" token="false" catavg="false" name=""/>
+	<field id="HS049" type="double" enum="false" token="false" catavg="true" name="Market Cap Mid %(Long Rescaled)"/>
+	<field id="XX020" type="long" enum="false" token="false" catavg="false" name=""/>
+</field-list></field-root>

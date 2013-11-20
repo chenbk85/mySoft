@@ -1,0 +1,25 @@
+#ifndef __CC_FLEXLEXER_HPP
+#define __CC_FLEXLEXER_HPP
+
+#include <FlexLexer.h>
+#include "yacc.tab.hpp"
+
+class ccFlexLexer : public yyFlexLexer {
+public:
+        ccFlexLexer(char* ibuf, size_t isize)
+		: yyFlexLexer(NULL, NULL)
+	{
+		// build more efficient buffer
+		yy_current_buffer = 0; // TODO:
+	}
+
+        ccFlexLexer(std::istream* arg_yyin, std::ostream* arg_yyout)
+                : yyFlexLexer(arg_yyin, arg_yyout)
+        {
+                // nothing
+        }
+public:
+	int yylex(yy::query_parser::semantic_type* yylval);
+};
+
+#endif /*!__CC_FLEXLEXER_HPP */

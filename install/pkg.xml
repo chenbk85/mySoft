@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<package>
+		<i n="MSTAR_BACKEND_HOME" v="/opt/mstar/backend/"/>
+		<i n="PRODUCT_NAME" v="mss-2.5.0-edm-sigma"/>
+		<!-- PRODUCT_HOME=${MSTAR_BACKEND_HOME}${PRODUCT_NAME}/ -->
+		<i n="MODULE_NAME" v="chunk"/>
+		<!-- MODULE_HOME=${PRODUCT_HOME}${MODULE_NAME} -->
+	</package>
+
+	<environment>
+		<i n="JAVA_HOME" v="/opt/jdk-1.6/"/>
+		<i n="PATH" v="${JAVA_HOME}bin"/>
+		<i n="LD_LIBRARY_PATH" v="${MSTAR_BACKEND_HOME}/lib"/>
+		<i n="LD_LIBRARY_PATH" v="${PRODUCT_HOME}/lib"/>
+		<i n="LD_LIBRARY_PATH" v="${MODULE_HOME}/lib"/>
+	</environment>
+
+	<link>
+		<i s="logs" d="/data/${PRODUCT_NAME}/${MODULE_NAME}/logs"/>
+		<i s="data" d="/data/${PRODUCT_NAME}/${MODULE_NAME}/data"/>
+	</link>
+
+	<start><!-- default --></start>
+	<stop><!-- default --></stop>
+	<check><!-- default --></check>
+
+	<monitor>
+		<process shell="java" proc="chunk" port="9001,9002"/>
+	</monitor>
+</root>
+

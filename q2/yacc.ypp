@@ -1,0 +1,52 @@
+%{
+#include <iostream>
+#include <stream>
+
+#define OBJ int
+
+%}
+
+%union {
+	long lval;
+	double dval;
+	char* sval;
+	query_exp* qexp;	
+};
+
+%pure_parser
+
+%token AND OR NOT COLON LE GE LT GT EQ NE END
+
+%left OR AND
+%left NOT
+
+%token <lval> INT
+%token <dval> FLOAT
+%token <sval> NAME
+
+%type <qexp> query expr fieldexp
+
+%%
+query: expr END { YYACCEPT; }
+	;
+expr: fieldexp { $$ = $1; }
+	| '(' expr ')' { $$ = $2; }
+	| expr AND expr { $$ = new and_query_exp<OBJ>($1, $3); }
+	| expr OR  expr { $$ = new or_query_exp<OBJ>($1, $3); }
+	| expr NOT expr { $$ = new not_query_exp<OBJ>($1, $3); }
+	;
+
+fieldexp: NAME LT INT { $$ = new unary_field_exp<OBJ, long, std::greater<long> >($1, $3); }
+	| NAME LE INT { $$ = new unary_field_exp<OBJ, long, std::greater_equal<long> >($1, $3); }
+	| NAME GT INT { $$ = new unary_field_exp<OBJ, long, std::less<long> >($1, $3); }
+	| NAME GE INT { $$ = new unary_field_exp<OBJ, long, std::less_equal<long> >($1, $3); }
+	| NAME EQ INT { $$ = new unary_field_exp<OBJ, long, std::equal_to<long> >($1, $3); }
+	| NAME NE INT { $$ = new unary_field_exp<OBJ, long, std::not_equal_to<long> >($1, $3); }
+	| NAME COLON '(' INT ',' INT ')' { $$ = new unary_field_exp<OBJ, long, field_between_ee<long> >($1, $4, $6); }
+	| NAME COLON '(' INT ',' INT ']' { $$ = new unary_field_exp<OBJ, long, field_between_ei<long> >($1, $4, $6); }
+	| NAME COLON '[' INT ',' INT ')' { $$ = new unary_field_exp<OBJ, long, field_between_ie<long> >($1, $4, $6); }
+	| NAME COLON '[' INT ',' INT ']' { $$ = new unary_field_exp<OBJ, long, field_between_ii<long> >($1, $4, $6); }
+	;
+
+%%
+

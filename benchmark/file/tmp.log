@@ -1,0 +1,52 @@
+    read(%): 0
+  thread-nr: 1
+ block-size: 32768
+total-limit: 1677721
+       file: /data/test.data
+  file-size: 68719476736 (64.000G)
+     random: 1
+      flags: 0x4000
+ buffer-ptr: 0x0xfc22000
+binlog-mode: 1
+2011-02-17 02:20:08.085 Interval:  10002ms, this/total:      43183      43183 Rate: 4.317K/s 134.920MB/s
+2011-02-17 02:20:18.088 Interval:  10003ms, this/total:      37050      80233 Rate: 3.704K/s 115.747MB/s
+2011-02-17 02:20:28.091 Interval:  10002ms, this/total:      40865     121098 Rate: 4.086K/s 127.678MB/s
+2011-02-17 02:20:38.094 Interval:  10003ms, this/total:      39564     160662 Rate: 3.955K/s 123.600MB/s
+2011-02-17 02:20:48.097 Interval:  10002ms, this/total:      36461     197123 Rate: 3.645K/s 113.918MB/s
+2011-02-17 02:20:58.101 Interval:  10003ms, this/total:      41398     238521 Rate: 4.139K/s 129.330MB/s
+2011-02-17 02:21:08.103 Interval:  10002ms, this/total:      41400     279921 Rate: 4.139K/s 129.349MB/s
+2011-02-17 02:21:18.106 Interval:  10002ms, this/total:      39634     319555 Rate: 3.963K/s 123.831MB/s
+2011-02-17 02:21:28.109 Interval:  10003ms, this/total:      42569     362124 Rate: 4.256K/s 132.988MB/s
+2011-02-17 02:21:38.112 Interval:  10003ms, this/total:      43882     406006 Rate: 4.387K/s 137.090MB/s
+2011-02-17 02:21:48.115 Interval:  10003ms, this/total:      45729     451735 Rate: 4.572K/s 142.860MB/s
+2011-02-17 02:21:58.118 Interval:  10002ms, this/total:      42756     494491 Rate: 4.275K/s 133.586MB/s
+2011-02-17 02:22:08.121 Interval:  10003ms, this/total:      47502     541993 Rate: 4.749K/s 148.399MB/s
+2011-02-17 02:22:18.124 Interval:  10002ms, this/total:      45151     587144 Rate: 4.514K/s 141.069MB/s
+2011-02-17 02:22:28.127 Interval:  10002ms, this/total:      44114     631258 Rate: 4.411K/s 137.829MB/s
+2011-02-17 02:22:38.130 Interval:  10002ms, this/total:      41413     672671 Rate: 4.140K/s 129.390MB/s
+2011-02-17 02:22:48.133 Interval:  10003ms, this/total:      48149     720820 Rate: 4.813K/s 150.420MB/s
+2011-02-17 02:22:58.136 Interval:  10002ms, this/total:      42532     763352 Rate: 4.252K/s 132.886MB/s
+2011-02-17 02:23:08.139 Interval:  10002ms, this/total:      40357     803709 Rate: 4.035K/s 126.090MB/s
+2011-02-17 02:23:18.143 Interval:  10003ms, this/total:      45330     849039 Rate: 4.532K/s 141.614MB/s
+2011-02-17 02:23:28.146 Interval:  10003ms, this/total:      45214     894253 Rate: 4.520K/s 141.251MB/s
+2011-02-17 02:23:38.149 Interval:  10003ms, this/total:      43217     937470 Rate: 4.320K/s 135.013MB/s
+2011-02-17 02:23:48.152 Interval:  10002ms, this/total:      45251     982721 Rate: 4.524K/s 141.381MB/s
+2011-02-17 02:23:58.155 Interval:  10003ms, this/total:      44983    1027704 Rate: 4.497K/s 140.530MB/s
+2011-02-17 02:24:08.158 Interval:  10002ms, this/total:      49154    1076858 Rate: 4.914K/s 153.576MB/s
+2011-02-17 02:24:18.161 Interval:  10003ms, this/total:      44489    1121347 Rate: 4.448K/s 138.986MB/s
+2011-02-17 02:24:28.164 Interval:  10003ms, this/total:      42900    1164247 Rate: 4.289K/s 134.022MB/s
+2011-02-17 02:24:38.167 Interval:  10002ms, this/total:      46816    1211063 Rate: 4.681K/s 146.271MB/s
+2011-02-17 02:24:48.170 Interval:  10002ms, this/total:      45981    1257044 Rate: 4.597K/s 143.662MB/s
+2011-02-17 02:24:58.174 Interval:  10003ms, this/total:      39809    1296853 Rate: 3.980K/s 124.366MB/s
+2011-02-17 02:25:08.179 Interval:  10004ms, this/total:      37870    1334723 Rate: 3.785K/s 118.296MB/s
+2011-02-17 02:25:18.186 Interval:  10007ms, this/total:      45226    1379949 Rate: 4.519K/s 141.232MB/s
+2011-02-17 02:25:28.189 Interval:  10002ms, this/total:      44691    1424640 Rate: 4.468K/s 139.631MB/s
+2011-02-17 02:25:38.192 Interval:  10002ms, this/total:      41516    1466156 Rate: 4.151K/s 129.712MB/s
+2011-02-17 02:25:48.195 Interval:  10003ms, this/total:      45079    1511235 Rate: 4.507K/s 140.830MB/s
+2011-02-17 02:25:58.198 Interval:  10003ms, this/total:      46624    1557859 Rate: 4.661K/s 145.656MB/s
+2011-02-17 02:26:08.201 Interval:  10002ms, this/total:      44377    1602236 Rate: 4.437K/s 138.650MB/s
+2011-02-17 02:26:18.204 Interval:  10002ms, this/total:      44379    1646615 Rate: 4.437K/s 138.657MB/s
+2011-02-17 02:26:25.209 Interval:   7005ms, this/total:      31106    1677721 Rate: 4.441K/s 138.767MB/s
+2011-02-17 02:26:25.209 Interval: 387126ms, total:    1677721 Rate: 4.334K/s 135.431MB/s
+Name:	read-p	thread-nr	block-size	count	file-size(GB)	random	binlog-mode	rate	(#k/s)	rate(MB/s)
+Total:	0	1	32768	1677721	64.000	1	1	4.334	135.431
